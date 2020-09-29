@@ -1,0 +1,23 @@
+{
+  "name": "aroma-discord",
+  "version": "0.0.1",
+  "description": "Website for Aroma discord",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redbeakstudio/aromadiscord.git"
+  },
+  "keywords": [
+    "multisensory",
+    "art-making"
+  ],
+  "author": "Aroma Discord",
+  "license": "Creative Commons CC0 Public Domain Dedication",
+  "bugs": {
+    "url": "https://github.com/redbeakstudio/aromadiscord/issues"
+  },
+  "homepage": "https://github.com/redbeakstudio/aromadiscord#readme"
+}
