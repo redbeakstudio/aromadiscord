@@ -55,13 +55,11 @@ September 30, 2020
 * This was our first talk, which meant Chach needed to set up and configure EventBrite, a YouTube channel, a mailing list, and the process for onboarding new presenters & publishing the video.
 * After our post-talk conversation, we started a new thread on our Discord server to begin to discuss the concept of olfactory privacy and ethics.
 * Created a new website (this website), to post more information about our talks for those who cannot attend.
-* We are creating an informational page about Discord (to explain how to use it)
+* We are creating an informational page about Discord (to explain how to use it).
 * If you are doing a VR project and would be interested to add a survey to understand how scent effects the experience, please contact Dr. Jacki Morie (one of our super hero mentors Check out her [Wikipedia](https://en.wikipedia.org/wiki/Jacquelyn_Ford_Morie) page! [LinkedIn](https://www.linkedin.com/in/jackimorie26/))
 * Some folks liked the Zoom activity & are interested in creating an opt-in database so we can contact each other.
-
-We want to build a great community that excels at international collaboration & working across disciplines without jargon or feeling intimidated (for perfumers, technologists, artists, students and community groups).
-
-
+* Zoom captions did not work as expected, we need to figure out captions for next time.
+* We want to build a great community that excels at international collaboration & working across disciplines without jargon or feeling intimidated (for perfumers, technologists, artists, students and community groups). This will take some time.
 
 [Sign up](https://airtable.com/shrKiJES3nlqxHBXx) to present, get on our mailing list, and get an invitation to the Discord server.
 We are volunteer run, and still setting up basic infrastructure for meetings and communications.
