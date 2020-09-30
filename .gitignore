@@ -1,4 +1,6 @@
 node_modules
+dist
+package.json
 # Twelvety caches responsive images
 # Don't commit otherwise your build won't generate any images
 .twelvety.cache
