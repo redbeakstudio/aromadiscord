@@ -1,26 +1,34 @@
 <footer>
-  <li>
-    <a href="https://airtable.com/shrKiJES3nlqxHBXx" target="_blank">Join the community</a>
-  </li>
-  <li class="coming-soon">About Aroma Discord</li>
-  <li class="coming-soon">Event Calendar</li>
-  <li class="coming-soon">What is Discord? How do I use it?</li>
-  <li>
-    Github:
-    <a href="https://github.com/redbeakstudio/aromadiscord">Aroma Discord</a>
-  </li>
-  <li class="coming-soon">Community Values & Guidelines</li>
+  <ul>
+    <li><a href="https://airtable.com/shrKiJES3nlqxHBXx">Sign up</a></li>
+    <li><a href="/aroma-discord/about">About Aroma Discord</a></li>
+    <li><a href="/aroma-discord/calendar">Event Calendar</a></li>
+    <li>
+      <a href="/aroma-discord/discord">What is Discord? How do I use it?</a>
+    </li>
+    <li>
+      <a href="/aroma-discord/community">Community Values & Guidelines</a>
+    </li>
+    <li>
+  </ul>
 </footer>
-<p class="updated">Last updated: September 30, 2020</p>
+
+<p class="code">Last updated: September 30, 2020 | <a href="https://github.com/redbeakstudio/aromadiscord">Github</a></p>
+
+
 
 {% stylesheet 'scss' %}
   // Import sass from your styles directory
   @import 'mixins';
 
-  .updated {
-    font-size: 0.7rem;
-    opacity: 0.3;
+  .code {
+    font-size: 0.9rem;
     padding: 0.25rem;
+    color: #666;
+    a {
+      color: #666;
+      font-weight: 400;
+    }
   }
 
   .coming-soon {
