@@ -1,0 +1,34 @@
+<header id="header" role="banner">
+  <div id="skip-to-content"><a href="#main-content">Skip to Main Content</a></div>
+  <nav class="header__nav">
+    <a class="header__brand" href="/">Aroma Discord</a>
+    <p class="tagline">Scent technology community</p>
+  </nav>
+</header>
+
+{% stylesheet 'scss' %}
+  // Import sass from your styles directory
+  @import 'mixins';
+
+  .header__brand {
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 400;
+  }
+
+  .tagline {
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+
+  #skip-to-content {
+    display: none;
+  }
+
+  header {
+    margin: 1rem 0.25rem;
+    p {
+      margin: 0;
+    }
+  }
+{% endstylesheet %}

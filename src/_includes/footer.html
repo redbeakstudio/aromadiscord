@@ -1,0 +1,35 @@
+<footer>
+  <li>
+    <a href="https://airtable.com/shrKiJES3nlqxHBXx" target="_blank">Join the community</a>
+  </li>
+  <li class="coming-soon">About Aroma Discord</li>
+  <li class="coming-soon">Event Calendar</li>
+  <li class="coming-soon">What is Discord? How do I use it?</li>
+  <li>
+    Github:
+    <a href="https://github.com/redbeakstudio/aromadiscord">Aroma Discord</a>
+  </li>
+  <li class="coming-soon">Community Values & Guidelines</li>
+</footer>
+<p class="updated">Last updated: September 30, 2020</p>
+
+{% stylesheet 'scss' %}
+  // Import sass from your styles directory
+  @import 'mixins';
+
+  .updated {
+    font-size: 0.7rem;
+    opacity: 0.3;
+    padding: 0.25rem;
+  }
+
+  .coming-soon {
+    opacity: 0.25;
+  }
+
+  footer {
+    padding: 0.25rem;
+    font-size: 1rem;
+    margin: 0;
+  }
+{% endstylesheet %}
