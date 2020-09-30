@@ -1,7 +1,0 @@
-@import 'variables';
-
-@mixin container {
-  width: 90%;
-  padding: 0 0.25rem;
-  max-width: 0.9 * $breakpoint--xl;
-}
