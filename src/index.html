@@ -1,4 +1,4 @@
-<main class="home">
+<main class="content">
   <article class="home__content">
     <!--
       Include Markdown using the 'markdown' paired shortcode. Make sure that you strip whitespace
@@ -14,20 +14,12 @@
   // Import sass from your styles directory
   @import 'mixins';
 
-  .home {
+
+  .content {
     @include container;
-    h2 {
-      font-weight: 100;
-      font-size: 1.5rem;
-      margin: 1rem 0 0.5rem 0;
-    }
-    ul {
-      margin: 0;
-    }
-    p {
-      font-weight: 100;
-    }
     margin-bottom: 6rem;
+
+        width: 500px;
 
     &__title {
       margin-bottom: 2rem;
