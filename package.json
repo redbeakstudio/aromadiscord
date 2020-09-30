@@ -1,21 +1,28 @@
 {
-  "name": "twelvety",
+  "name": "aroma-discord",
   "version": "0.0.1",
-  "description": "A pre-configured, super-fast Eleventy starter project",
+  "description": "Website for Aroma discord",
   "scripts": {
     "clean": "rimraf dist .twelvety.cache",
     "build": "cross-env ELEVENTY_ENV=production eleventy",
     "watch": "cross-env ELEVENTY_ENV=development eleventy --watch",
     "serve": "cross-env ELEVENTY_ENV=development eleventy --serve"
   },
-  "repository": "https://github.com/gregives/twelvety",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redbeakstudio/aromadiscord.git"
+  },
   "keywords": [
-    "eleventy",
-    "starter",
-    "project"
+    "scent",
+    "community",
+    "olfaction",
+    "technology"
   ],
-  "author": "Greg Ives",
-  "license": "MIT",
+  "author": "Aroma Discord",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/redbeakstudio/aromadiscord/issues"
+  },
   "dependencies": {
     "@11ty/eleventy": "^0.11.0",
     "@babel/core": "^7.11.0",
