@@ -7,7 +7,7 @@
     "build": "cross-env ELEVENTY_ENV=production eleventy",
     "watch": "cross-env ELEVENTY_ENV=development eleventy --watch",
     "serve": "cross-env ELEVENTY_ENV=development eleventy --serve",
-    "deploy": "git subtree push --prefix dist origin gh-pages"
+    "deploy": "npm run build && cp CNAME dist/CNAME && git subtree push --prefix dist origin gh-pages"
   },
   "repository": {
     "type": "git",
