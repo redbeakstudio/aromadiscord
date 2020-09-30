@@ -1,5 +1,7 @@
 const path = require('path')
 const alias = require('module-alias')
+const embedYouTube = require("eleventy-plugin-youtube-embed")
+
 
 // Twelvety options can be found in .twelvety.js
 // Set up alias for Twelvety options
@@ -32,6 +34,8 @@ module.exports = function (config) {
     strict_filters: true,
     strict_variables: true
   })
+
+  config.addPlugin(embedYouTube)
 
   // Set instance of markdown-it so we can add our own plugin
   // Documentation: https://www.11ty.dev/docs/languages/markdown/#add-your-own-plugins
